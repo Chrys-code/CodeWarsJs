@@ -39,25 +39,6 @@ function add(n) {
 
 console.log(add(7)(8)(99));
 */
-/*
-function add(n){
-  var fn = function(x) {
-    return add(n + x);
-  };
-  
-  fn.valueOf = function() {
-    return n;
-  };
-  
-  return fn;
-}*/
-/*
-function add(n) {
-  var next = add.bind(n += this | 0);
-  next.valueOf = function() { return n; };
-  return next;
-}
-*/
 
 
 function add(n){
